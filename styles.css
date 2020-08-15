@@ -11,4 +11,34 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    image-rendering: crisp-edges;
+}
+h1{
+    color: rgb(255, 0, 76);
+}
+h3{
+    color: lightcoral;
+}p{
+    width: 85%;
+    height: 50%;  
+    font-size: 16px;
+}
+#contacts{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:left;
+    background-color: #77f38c;
+    border: 4px;
+    column-count: auto;
+    color:white;
+    box-sizing: content-box;
+}
+.table{
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    color:black; 
+    text-align: left ; 
+    
+
 }
