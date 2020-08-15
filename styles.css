@@ -11,10 +11,11 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    image-rendering: crisp-edges;
+    opacity: initial;
 }
 h1{
-    color: rgb(255, 0, 76);
+    color: rgb(75, 7, 27);
+    font-weight: lighter;
 }
 h3{
     color: lightcoral;
@@ -22,6 +23,9 @@ h3{
     width: 85%;
     height: 50%;  
     font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: serif;
 }
 #contacts{
     padding-top: 12px;
@@ -39,6 +43,19 @@ h3{
     border: 1px solid black;
     color:black; 
     text-align: left ; 
+    font-weight: bold;
+    font-family: serif;
+}
     
-
+ul{
+ font-style: italic;  
+ font-weight: bold; 
+ font-family: serif;
+ color: rgb(85, 85, 236);
+}
+ol{
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    color: rgb(58, 58, 192);
 }
